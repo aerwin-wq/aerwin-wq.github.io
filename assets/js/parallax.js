@@ -31,6 +31,10 @@ document.addEventListener('DOMContentLoaded', function() {
     layer.style.width = size + 'px';
     layer.style.height = size + 'px';
 
+    // Randomly flip some layers on y-axis
+    const shouldFlip = Math.random() > 0.5;
+    layer.dataset.flipped = shouldFlip ? '1' : '0';
+
     // Store initial positions and random phase offsets for varied movement
     layer.dataset.initialX = parseFloat(position[0]);
     layer.dataset.initialY = parseFloat(position[1]);
@@ -50,6 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const phaseX = parseFloat(layer.dataset.phaseX);
       const phaseY = parseFloat(layer.dataset.phaseY);
       const frequency = parseFloat(layer.dataset.frequency);
+      const isFlipped = layer.dataset.flipped === '1';
 
       // Continuous floating motion using sine waves
       const floatX = Math.sin(time * frequency + phaseX) * 30 * speed;
@@ -66,7 +71,12 @@ document.addEventListener('DOMContentLoaded', function() {
       const totalX = floatX + mouseParallaxX;
       const totalY = scrollY + floatY + mouseParallaxY;
 
-      layer.style.transform = `translate(${totalX}px, ${totalY}px)`;
+      // Apply transform with optional y-axis flip
+      if (isFlipped) {
+        layer.style.transform = `translate(${totalX}px, ${totalY}px) scaleY(-1)`;
+      } else {
+        layer.style.transform = `translate(${totalX}px, ${totalY}px)`;
+      }
     });
 
     // Content sections now use CSS animations for x-axis movement
