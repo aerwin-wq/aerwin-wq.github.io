@@ -84,19 +84,6 @@ body::before {
   pointer-events: none;
 }
 
-.wrapper {
-  background-color: rgba(255, 255, 255, 0.95);
-  padding: 20px;
-  border-radius: 8px;
-  position: relative;
-  z-index: 1;
-}
-
-section {
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 20px;
-  border-radius: 8px;
-}
 
 h1 {
   font-family: "Rubik Maze", system-ui;
