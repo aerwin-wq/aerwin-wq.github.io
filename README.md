@@ -358,7 +358,52 @@ Add to `index.md` in parallax-container:
 
 This project is open source and available for educational purposes.
 
-## 👥 Credits
+## 👥 Collaboration & Credits
+
+### Team Contributions
+
+This website was a collaborative effort between all band members, combining creative vision with technical implementation.
+
+#### Content & Creative Direction
+**Isaac, Ryan, and Arlo** contributed:
+- **Band Biographies**: Wrote individual member bios highlighting their musical backgrounds and influences
+- **Text Content**: Created all written content including band description, project descriptions, and contact information
+- **Asset Selection**: Chose and curated all images and GIFs used throughout the site
+  - Selected the background GIF (`qav24tl.gif`)
+  - Chose parallax layer GIFs (`rowleytransparent.gif`, `i-said-hey-he-man.gif`)
+  - Provided creative direction on visual aesthetic
+
+#### Technical Implementation
+**Developer** (me) handled:
+- **Site Architecture**: Built Jekyll structure and page layout
+- **CSS Styling**: Implemented all visual effects, animations, and responsive design
+  - Created "fried" background filters
+  - Designed rainbow gradient headers
+  - Styled review cards and section layouts
+  - Applied unique typography per section
+- **JavaScript Development**: Built custom parallax engine from scratch
+  - Implemented 50-layer parallax system with sine wave motion
+  - Added mouse-follow and scroll-based parallax
+  - Created smooth scroll navigation
+- **Deployment**: Set up GitHub Pages hosting and Jekyll configuration
+- **Optimization**: Performance tuning and browser compatibility
+
+### Division of Labor
+
+| Area | Contributors | Responsibilities |
+|------|--------------|------------------|
+| **Content Writing** | Isaac, Ryan, Arlo | Bios, descriptions, project info |
+| **Visual Assets** | Isaac, Ryan, Arlo | Image selection, GIF curation |
+| **Design Direction** | Isaac, Ryan, Arlo | Color schemes, overall aesthetic |
+| **HTML/CSS** | Developer | Structure, styling, animations |
+| **JavaScript** | Developer | Parallax effects, interactivity |
+| **Deployment** | Developer | Hosting, configuration, optimization |
+
+This collaborative approach allowed us to create a website that authentically represents ITPP's creative vision while utilizing advanced web technologies for maximum visual impact.
+
+---
+
+### Credits
 
 **Band**: ITPP (Isaac, Ryan, Arlo)
 **Developer**: Built with Claude Code
