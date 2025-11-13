@@ -104,6 +104,147 @@ h1 {
   font-style: normal;
 }
 
+/* Fixed Navigation */
+#main-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(10px);
+  padding: 20px 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+#main-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 2px;
+  transition: color 0.3s ease, transform 0.3s ease;
+  position: relative;
+}
+
+#main-nav a:hover {
+  color: #00ff88;
+  transform: translateY(-2px);
+}
+
+#main-nav a::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #00ff88;
+  transition: width 0.3s ease;
+}
+
+#main-nav a:hover::after {
+  width: 100%;
+}
+
+/* Content Sections */
+.content-section {
+  min-height: 100vh;
+  padding: 120px 40px 60px;
+  margin: 40px 0;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  position: relative;
+  will-change: transform;
+}
+
+/* Home Section */
+.section-home {
+  background: rgba(255, 255, 255, 0.95);
+  transform: translateX(-5%);
+  font-family: 'Rubik Maze', system-ui;
+}
+
+/* About Section */
+.section-about {
+  background: rgba(255, 248, 240, 0.95);
+  transform: translateX(8%);
+  font-family: 'Courier New', monospace;
+}
+
+.section-about h2 {
+  font-family: 'Impact', sans-serif;
+  font-size: 48px;
+  color: #8B4513;
+}
+
+.section-about h3 {
+  font-family: 'Georgia', serif;
+  color: #2C1810;
+}
+
+/* Reviews Section */
+.section-reviews {
+  background: rgba(240, 255, 240, 0.95);
+  transform: translateX(-12%);
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.section-reviews h2 {
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 52px;
+  color: #006400;
+}
+
+/* Projects Section */
+.section-projects {
+  background: rgba(255, 240, 255, 0.95);
+  transform: translateX(6%);
+  font-family: 'Verdana', sans-serif;
+}
+
+.section-projects h2 {
+  font-family: 'Arial Black', sans-serif;
+  font-size: 46px;
+  color: #4B0082;
+}
+
+.section-projects h3 {
+  font-family: 'Lucida Console', monospace;
+}
+
+/* Contact Section */
+.section-contact {
+  background: rgba(255, 255, 224, 0.95);
+  transform: translateX(-7%);
+  font-family: 'Palatino', serif;
+}
+
+.section-contact h2 {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 50px;
+  color: #DAA520;
+}
+
+@media (max-width: 768px) {
+  #main-nav {
+    gap: 15px;
+    padding: 15px 10px;
+  }
+
+  #main-nav a {
+    font-size: 12px;
+  }
+
+  .content-section {
+    transform: translateX(0) !important;
+    padding: 100px 20px 40px;
+  }
+}
+
 .reviews-container {
   display: grid;
   gap: 20px;
