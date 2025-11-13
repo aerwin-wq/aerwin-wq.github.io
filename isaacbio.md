@@ -1,0 +1,1 @@
+Isaac is a 20 year old guitarist from Dallas, TX and has been playing the instrument for 8 years. He plays syles such as hard rock, jazz, and classical. His biggest influences are guitarist such as Eric Johnson and Alan Holdsworth.
