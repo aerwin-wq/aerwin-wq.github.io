@@ -1,0 +1,1 @@
+Arlo is a 20 year old Bassist from Los Angeles, CA and has been playing the instrument for 10 years. He plays syles such as funk, jazz, and R&B. His biggest influences are Bassists such as Charles Mingus and Stanley Clarke.
