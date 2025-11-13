@@ -60,6 +60,8 @@ title: Home
 
 Bookmark this to keep an eye on my project updates!
 
+ITPP is a dynamic jazz fusion trio based in Boston, Massachusetts. Blending intricate improvisation with contemporary grooves, we push the boundaries of traditional jazz while incorporating elements of funk, rock, and world music. Our sound is characterized by virtuosic instrumental interplay, complex harmonic structures, and an unwavering commitment to musical exploration. From intimate jazz clubs to larger venues, we bring an energetic and sophisticated performance that captivates audiences and showcases the limitless possibilities of modern fusion.
+
 ## About
 
 ### Isaac
