@@ -62,7 +62,14 @@ Bookmark this to keep an eye on my project updates!
 
 ## About
 
-This is the homepage for ITTP's projects and updates. I'm passionate about creating innovative solutions and sharing my work with the community.
+### Isaac
+Isaac is a 20 year old guitarist from Dallas, TX and has been playing the instrument for 8 years. He plays styles such as hard rock, jazz, and classical. His biggest influences are guitarists such as Eric Johnson and Alan Holdsworth.
+
+### Ryan
+Ryan Xiong is a music producer from Shanghai, China. He began playing piano at the age of 4 and started his music production journey when he was 15. Currently in his third semester as an Electronic Production & Design (EPD) student, Ryan is dedicated to growing into a well-rounded, forward-thinking musician.
+
+### Arlo
+Arlo is a 20 year old Bassist from Los Angeles, CA and has been playing the instrument for 10 years. He plays styles such as funk, jazz, and R&B. His biggest influences are Bassists such as Charles Mingus and Stanley Clarke.
 
 ## Projects
 
