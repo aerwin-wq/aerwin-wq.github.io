@@ -89,6 +89,35 @@ h1 {
   font-family: "Rubik Maze", system-ui;
   font-weight: 400;
   font-style: normal;
+  background: linear-gradient(90deg,
+    #ff0000, #ff7f00, #ffff00, #00ff00,
+    #0000ff, #4b0082, #9400d3, #ff00ff,
+    #ff0000);
+  background-size: 400% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: rainbow-gradient 2s linear infinite;
+}
+
+h2 {
+  background: linear-gradient(90deg,
+    #ff00ff, #00ffff, #00ff00, #ffff00,
+    #ff0000, #ff00ff);
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: rainbow-gradient 1.5s linear infinite reverse;
+}
+
+@keyframes rainbow-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
 }
 
 /* Fixed Navigation */
@@ -168,7 +197,6 @@ h1 {
 .section-about h2 {
   font-family: 'Impact', sans-serif;
   font-size: 48px;
-  color: #FFB366;
 }
 
 .section-about h3 {
@@ -187,7 +215,6 @@ h1 {
 .section-reviews h2 {
   font-family: 'Comic Sans MS', cursive;
   font-size: 52px;
-  color: #00FF66;
 }
 
 /* Projects Section */
@@ -201,7 +228,6 @@ h1 {
 .section-projects h2 {
   font-family: 'Arial Black', sans-serif;
   font-size: 46px;
-  color: #BB88FF;
 }
 
 .section-projects h3 {
@@ -220,7 +246,6 @@ h1 {
 .section-contact h2 {
   font-family: 'Brush Script MT', cursive;
   font-size: 50px;
-  color: #FFD700;
 }
 
 @media (max-width: 768px) {
