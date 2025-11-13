@@ -204,6 +204,14 @@ h2 {
   color: #FFD699;
 }
 
+.section-about h4 {
+  color: #fff;
+}
+
+.section-about strong {
+  color: #FFB366;
+}
+
 /* Reviews Section */
 .section-reviews {
   background: rgba(0, 0, 0, 0.95);
@@ -235,6 +243,18 @@ h2 {
   color: #CC99FF;
 }
 
+.section-projects h4 {
+  color: #fff;
+}
+
+.section-projects li {
+  color: #fff;
+}
+
+.section-projects strong {
+  color: #BB88FF;
+}
+
 /* Contact Section */
 .section-contact {
   background: rgba(0, 0, 0, 0.95);
@@ -246,6 +266,10 @@ h2 {
 .section-contact h2 {
   font-family: 'Brush Script MT', cursive;
   font-size: 50px;
+}
+
+.section-contact strong {
+  color: #FFD700;
 }
 
 @media (max-width: 768px) {
