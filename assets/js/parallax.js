@@ -69,33 +69,8 @@ document.addEventListener('DOMContentLoaded', function() {
       layer.style.transform = `translate(${totalX}px, ${totalY}px)`;
     });
 
-    // Animate content sections with parallax
-    contentSections.forEach(section => {
-      const rect = section.getBoundingClientRect();
-      const sectionTop = rect.top;
-      const sectionHeight = rect.height;
-      const windowHeight = window.innerHeight;
-
-      // Calculate if section is in viewport
-      if (sectionTop < windowHeight && sectionTop + sectionHeight > 0) {
-        const parallaxSpeed = parseFloat(section.getAttribute('data-parallax')) || 0.5;
-        const scrollProgress = (windowHeight - sectionTop) / (windowHeight + sectionHeight);
-        const parallaxY = (scrollProgress - 0.5) * 100 * parallaxSpeed;
-
-        // Get the base translateX from CSS
-        const currentTransform = window.getComputedStyle(section).transform;
-        let translateX = 0;
-
-        if (currentTransform && currentTransform !== 'none') {
-          const matrix = currentTransform.match(/matrix.*\((.+)\)/);
-          if (matrix) {
-            translateX = parseFloat(matrix[1].split(', ')[4]);
-          }
-        }
-
-        section.style.transform = `translate(${translateX}px, ${parallaxY}px)`;
-      }
-    });
+    // Content sections now use CSS animations for x-axis movement
+    // JavaScript only handles y-axis parallax if needed in the future
 
     requestAnimationFrame(animate);
   }

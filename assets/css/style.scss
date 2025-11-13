@@ -184,6 +184,16 @@ h2 {
   transform: translateX(-5%);
   font-family: 'Rubik Maze', system-ui;
   color: #fff;
+  animation: drift-home 4s ease-in-out infinite;
+}
+
+@keyframes drift-home {
+  0%, 100% {
+    transform: translateX(-5%);
+  }
+  50% {
+    transform: translateX(5%);
+  }
 }
 
 /* About Section */
@@ -192,6 +202,16 @@ h2 {
   transform: translateX(8%);
   font-family: 'Courier New', monospace;
   color: #fff;
+  animation: drift-about 3.5s ease-in-out infinite reverse;
+}
+
+@keyframes drift-about {
+  0%, 100% {
+    transform: translateX(8%);
+  }
+  50% {
+    transform: translateX(-8%);
+  }
 }
 
 .section-about h2 {
@@ -218,6 +238,16 @@ h2 {
   transform: translateX(-12%);
   font-family: 'Trebuchet MS', sans-serif;
   color: #fff;
+  animation: drift-reviews 5s ease-in-out infinite;
+}
+
+@keyframes drift-reviews {
+  0%, 100% {
+    transform: translateX(-12%);
+  }
+  50% {
+    transform: translateX(12%);
+  }
 }
 
 .section-reviews h2 {
@@ -231,6 +261,16 @@ h2 {
   transform: translateX(6%);
   font-family: 'Verdana', sans-serif;
   color: #fff;
+  animation: drift-projects 3s ease-in-out infinite reverse;
+}
+
+@keyframes drift-projects {
+  0%, 100% {
+    transform: translateX(6%);
+  }
+  50% {
+    transform: translateX(-6%);
+  }
 }
 
 .section-projects h2 {
@@ -261,6 +301,16 @@ h2 {
   transform: translateX(-7%);
   font-family: 'Palatino', serif;
   color: #fff;
+  animation: drift-contact 4.5s ease-in-out infinite;
+}
+
+@keyframes drift-contact {
+  0%, 100% {
+    transform: translateX(-7%);
+  }
+  50% {
+    transform: translateX(7%);
+  }
 }
 
 .section-contact h2 {
