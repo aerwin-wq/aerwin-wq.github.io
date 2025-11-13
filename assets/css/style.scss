@@ -139,13 +139,14 @@ h1 {
 
 /* Content Sections */
 .content-section {
-  min-height: 100vh;
+
   padding: 120px 40px 60px;
-  margin: 40px 0;
+  margin: 40px 200px;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   position: relative;
   will-change: transform;
+  max-width: 600px
 }
 
 /* Home Section */
