@@ -56,7 +56,7 @@ title: Home
   <div class="parallax-layer" data-speed="0.5" data-position="58,255" data-size="215"></div>
 </div>
 
-# Welcome to ITPP
+# Welcome to ITPP <img src="/rowleytransparent.gif" alt="Rowley" style="display: inline-block; height: 80px; vertical-align: middle; margin-left: 15px;">
 
 Bookmark this to keep an eye on my project updates!
 
