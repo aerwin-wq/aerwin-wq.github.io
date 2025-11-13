@@ -4,9 +4,63 @@
 @import "{{ site.theme }}";
 
 body {
-  background-color: #f0f0f0;
+  background-color: #000;
   overflow-x: hidden;
   min-height: 100vh;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: -20%;
+  left: -20%;
+  width: 140%;
+  height: 140%;
+  background-image: url('/qav24tl.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  z-index: -2;
+  filter:
+    saturate(500%)
+    contrast(200%)
+    hue-rotate(90deg)
+    brightness(150%)
+    blur(2px)
+    sepia(30%);
+  opacity: 0.8;
+  animation: fry 3s infinite alternate;
+}
+
+@keyframes fry {
+  0% {
+    filter:
+      saturate(500%)
+      contrast(200%)
+      hue-rotate(90deg)
+      brightness(150%)
+      blur(2px)
+      sepia(30%);
+  }
+  50% {
+    filter:
+      saturate(600%)
+      contrast(250%)
+      hue-rotate(180deg)
+      brightness(180%)
+      blur(3px)
+      sepia(50%);
+  }
+  100% {
+    filter:
+      saturate(550%)
+      contrast(220%)
+      hue-rotate(270deg)
+      brightness(160%)
+      blur(2.5px)
+      sepia(40%);
+  }
 }
 
 #parallax-container {
@@ -21,14 +75,15 @@ body {
 
 .parallax-layer {
   position: absolute;
-  width: 200px;
-  height: 200px;
-  background-image: url('/qav24tl.gif');
+  width: 250px;
+  height: 250px;
+  background-image: url('/rowleytransparent.gif');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   will-change: transform;
   transition: transform 0.1s ease-out;
+  filter: drop-shadow(0 0 10px rgba(0, 255, 0, 0.5));
 }
 
 .wrapper {
