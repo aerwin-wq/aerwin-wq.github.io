@@ -177,14 +177,17 @@ title: Home
 
   <p>Here are some of the exciting projects we're currently working on:</p>
 
-  <h4>Project Alpha</h4>
-  <p>A revolutionary approach to web development that combines modern frameworks with classic design principles. This project aims to bridge the gap between functionality and aesthetics.</p>
+  <h4>Debut Album: "Fusion Point"</h4>
+  <p>We're in the studio working on our debut album, blending intricate jazz compositions with modern production techniques. Expected release: Spring 2026. Featuring original compositions that showcase each member's unique voice while maintaining tight ensemble interplay.</p>
 
-  <h4>Project Beta</h4>
-  <p>An exploration into interactive media and dynamic content delivery. Using cutting-edge technologies to create immersive user experiences.</p>
+  <h4>Boston Jazz Club Residency</h4>
+  <p>Monthly residency at Wally's Jazz Cafe where we experiment with new material and invite special guests to sit in. These intimate performances allow us to connect directly with the local jazz community and push our improvisational boundaries.</p>
 
-  <h4>Project Gamma</h4>
-  <p>Community-driven open source initiative focused on accessibility and inclusive design. Making the web a better place for everyone.</p>
+  <h4>Live Session Video Series</h4>
+  <p>Producing a series of high-quality live session videos capturing our raw, unfiltered performances. Each video features deep-dive performances of original compositions, behind-the-scenes commentary, and insight into our creative process.</p>
+
+  <h4>Summer Tour 2026</h4>
+  <p>Planning a regional tour hitting major jazz venues across the Northeast. Bringing our unique fusion sound to audiences in New York, Philadelphia, Providence, and beyond. Stay tuned for dates and ticket information!</p>
 
   <h3>Skills & Technologies</h3>
   <ul>
