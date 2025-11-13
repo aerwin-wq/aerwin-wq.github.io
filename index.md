@@ -65,7 +65,7 @@ title: Home
 </div>
 
 <div id="home" class="content-section section-home" data-parallax="0.3">
-  <h1>Welcome to ITPP <img src="/rowleytransparent.gif" alt="Rowley" style="display: inline-block; height: 80px; vertical-align: middle; margin-left: 15px;"></h1>
+  <h1>Welcome to ITPP <img src="/i-said-hey-he-man.gif" alt="He-Man" style="display: inline-block; height: 80px; vertical-align: middle; margin-left: 15px;"></h1>
   <p>Bookmark this to keep an eye on my project updates!</p>
 
   <p>ITPP is a dynamic jazz fusion trio based in Boston, Massachusetts. Blending intricate improvisation with contemporary grooves, we push the boundaries of traditional jazz while incorporating elements of funk, rock, and world music. Our sound is characterized by virtuosic instrumental interplay, complex harmonic structures, and an unwavering commitment to musical exploration. From intimate jazz clubs to larger venues, we bring an energetic and sophisticated performance that captivates audiences and showcases the limitless possibilities of modern fusion.</p>
