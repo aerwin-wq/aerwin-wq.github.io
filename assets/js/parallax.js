@@ -2,11 +2,14 @@
 document.addEventListener('DOMContentLoaded', function() {
   const parallaxLayers = document.querySelectorAll('.parallax-layer');
 
-  // Initialize layer positions
+  // Initialize layer positions and sizes
   parallaxLayers.forEach(layer => {
     const position = layer.getAttribute('data-position').split(',');
+    const size = layer.getAttribute('data-size');
     layer.style.left = position[0] + '%';
     layer.style.top = position[1] + '%';
+    layer.style.width = size + 'px';
+    layer.style.height = size + 'px';
   });
 
   // Parallax on scroll
