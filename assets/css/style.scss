@@ -151,70 +151,76 @@ h1 {
 
 /* Home Section */
 .section-home {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(0, 0, 0, 0.95);
   transform: translateX(-5%);
   font-family: 'Rubik Maze', system-ui;
+  color: #fff;
 }
 
 /* About Section */
 .section-about {
-  background: rgba(255, 248, 240, 0.95);
+  background: rgba(0, 0, 0, 0.95);
   transform: translateX(8%);
   font-family: 'Courier New', monospace;
+  color: #fff;
 }
 
 .section-about h2 {
   font-family: 'Impact', sans-serif;
   font-size: 48px;
-  color: #8B4513;
+  color: #FFB366;
 }
 
 .section-about h3 {
   font-family: 'Georgia', serif;
-  color: #2C1810;
+  color: #FFD699;
 }
 
 /* Reviews Section */
 .section-reviews {
-  background: rgba(240, 255, 240, 0.95);
+  background: rgba(0, 0, 0, 0.95);
   transform: translateX(-12%);
   font-family: 'Trebuchet MS', sans-serif;
+  color: #fff;
 }
 
 .section-reviews h2 {
   font-family: 'Comic Sans MS', cursive;
   font-size: 52px;
-  color: #006400;
+  color: #00FF66;
 }
 
 /* Projects Section */
 .section-projects {
-  background: rgba(255, 240, 255, 0.95);
+  background: rgba(0, 0, 0, 0.95);
   transform: translateX(6%);
   font-family: 'Verdana', sans-serif;
+  color: #fff;
 }
 
 .section-projects h2 {
   font-family: 'Arial Black', sans-serif;
   font-size: 46px;
-  color: #4B0082;
+  color: #BB88FF;
 }
 
 .section-projects h3 {
   font-family: 'Lucida Console', monospace;
+  color: #CC99FF;
 }
 
 /* Contact Section */
 .section-contact {
-  background: rgba(255, 255, 224, 0.95);
+  background: rgba(0, 0, 0, 0.95);
   transform: translateX(-7%);
   font-family: 'Palatino', serif;
+  color: #fff;
 }
 
 .section-contact h2 {
   font-family: 'Brush Script MT', cursive;
   font-size: 50px;
-  color: #DAA520;
+  color: #FFD700;
 }
 
 @media (max-width: 768px) {
