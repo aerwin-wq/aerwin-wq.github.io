@@ -80,7 +80,6 @@ body::before {
   background-repeat: no-repeat;
   background-position: center;
   will-change: transform;
-  transition: transform 0.1s ease-out;
   filter: drop-shadow(0 0 10px rgba(0, 255, 0, 0.5));
   pointer-events: none;
 }
