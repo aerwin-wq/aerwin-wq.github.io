@@ -73,6 +73,90 @@ Ryan Xiong is a music producer from Shanghai, China. He began playing piano at t
 ### Arlo
 Arlo is a 20 year old Bassist from Los Angeles, CA and has been playing the instrument for 10 years. He plays styles such as funk, jazz, and R&B. His biggest influences are Bassists such as Charles Mingus and Stanley Clarke.
 
+## Reviews
+
+<div class="reviews-container">
+  <div class="review">
+    <div class="review-header">
+      <div class="review-stars">★★★★★</div>
+      <div class="review-author">Sarah Martinez - Jazz Enthusiast</div>
+    </div>
+    <div class="review-body">
+      "ITPP absolutely blew me away at Scullers Jazz Club! Their ability to seamlessly blend technical mastery with raw emotion is unparalleled. The chemistry between these three musicians is palpable, and every performance feels like a conversation. Highly recommend catching them live!"
+    </div>
+  </div>
+
+  <div class="review">
+    <div class="review-header">
+      <div class="review-stars">★★★★★</div>
+      <div class="review-author">Marcus Thompson - Music Producer</div>
+    </div>
+    <div class="review-body">
+      "I've worked with countless musicians in Boston, but ITPP stands out as one of the most innovative groups I've encountered. Their fusion of genres is fresh yet respectful of jazz traditions. Isaac's guitar work is phenomenal, Ryan's production sensibility shines through in their arrangements, and Arlo's bass lines are simply infectious."
+    </div>
+  </div>
+
+  <div class="review">
+    <div class="review-header">
+      <div class="review-stars">★★★★★</div>
+      <div class="review-author">Jennifer Chang - Berklee Alumni</div>
+    </div>
+    <div class="review-body">
+      "Caught ITPP at Wally's last month and I'm still thinking about that show. The level of improvisation and musical dialogue was extraordinary. These guys are the future of jazz fusion. Can't wait to see where they go next!"
+    </div>
+  </div>
+
+  <div class="review">
+    <div class="review-header">
+      <div class="review-stars">★★★★☆</div>
+      <div class="review-author">David Klein - The Boston Globe</div>
+    </div>
+    <div class="review-body">
+      "ITPP brings a youthful energy to the Boston jazz scene that's sorely needed. While they occasionally venture into overly complex territory, their technical prowess and genuine passion for the music make every performance worthwhile. A band to watch."
+    </div>
+  </div>
+
+  <div class="review">
+    <div class="review-header">
+      <div class="review-stars">★★★★★</div>
+      <div class="review-author">Amanda Rodriguez - Jazz Club Owner</div>
+    </div>
+    <div class="review-body">
+      "We've had ITPP perform at our venue multiple times, and they always pack the house. Their professionalism, musicianship, and stage presence are all top-tier. They know how to read a room and adjust their set accordingly. Absolute pleasure to work with!"
+    </div>
+  </div>
+
+  <div class="review">
+    <div class="review-header">
+      <div class="review-stars">★★★★★</div>
+      <div class="review-author">Robert Chen - Session Musician</div>
+    </div>
+    <div class="review-body">
+      "As a fellow musician, I'm always critical of live performances, but ITPP exceeded all expectations. The tightness of their rhythm section, the creativity in their solos, and the overall cohesiveness of their sound is remarkable. These three are going places."
+    </div>
+  </div>
+
+  <div class="review">
+    <div class="review-header">
+      <div class="review-stars">★★★★★</div>
+      <div class="review-author">Lisa Patterson - Music Blogger</div>
+    </div>
+    <div class="review-body">
+      "ITPP is everything I love about modern jazz fusion. They respect the classics while pushing boundaries in exciting new directions. Their recent performance was a masterclass in improvisation and groove. Five stars isn't enough!"
+    </div>
+  </div>
+
+  <div class="review">
+    <div class="review-header">
+      <div class="review-stars">★★★★★</div>
+      <div class="review-author">Tom Anderson - Jazz Radio Host</div>
+    </div>
+    <div class="review-body">
+      "I've been hosting jazz radio for 15 years, and ITPP is one of the most exciting acts to emerge from Boston in recent memory. Their compositions are intelligent, their performances are electric, and their future is bright. Essential listening for any jazz fan."
+    </div>
+  </div>
+</div>
+
 ## Projects
 
 ### Current Projects
